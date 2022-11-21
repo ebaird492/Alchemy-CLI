@@ -25,9 +25,7 @@ from alchemy import Alchemy
 
 def main():
     # alchemy_data stores the possible combinations for the game
-    # Initial data obtained from Little Alchemy created by Recloak:
-    # https://www.ign.com/wikis/little-alchemy/Little_Alchemy_Cheats_-_
-    # List_of_All_Combinations
+    # Initial data obtained from Little Alchemy created by Recloak
     combo_txt = open("data/alchemy_data.txt", "r")
 
     # data will hold the various combinations
